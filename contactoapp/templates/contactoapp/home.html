@@ -1,0 +1,443 @@
+<!--le  especificamos la ruta de donde debe heredar todo-->
+{% extends "contactoapp/base.html" %}
+
+<!--le indicamos que carge los archivos staticos-->
+{% load static %}
+<!--le idicamos que este es el contenido que va a cambiar-->
+
+{% block content %}
+
+<section class="section about-me" data-section="section1">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Acerca de mi </h2>
+      <div class="line-dec"></div>
+      <span>
+        <h4 style="color:rgba(255, 255, 255, 0.835);">Hola soy Oscar Alonso!!</h4> <br> Colombiano radicado en Argentina
+        hace ya casi 10 años enamorado de este hermoso pais, tratando de mezclar estas 2 grandes culturas,amante de la
+        buena musica,tegnologia, comida,autos, autodidacta de tiempo completo, Papa de 2 hermosos nenes Antonia y
+        Francisco
+      </span>
+      <br>
+      <div class="boton" style="padding: 40px;">
+        <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#resume">
+          leer mas
+        </button>
+      <br>
+        <div id="resume" class="collapse in">
+          <br>
+          <p>Nunca es tarde para cambiar y en este tiempo es casi obligatorio,siempre buscando lo mejor,decidi cambiar de profesion,decidi empezar con algo que me habia estado llamando la atencion, crear,organizar,solucionar,investigar eso me atrapo del desarrollo de software </p>
+        </div>
+      </div>
+    </div>
+    <div class="left-image-post">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="left-image">
+            <img src="{% static 'contactoapp/assets/images/antonia.jpg'%}" alt="mi gorda" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="right-text">
+            <h4>MIS OBJETIVOS </h4>
+            <p> Dentro de mis objetivos como desarrollador a corto y mediano plazo tengo como prioridad los siguientes
+              puntos. </p>
+            <ul>
+              <ol> Entrar una empresa del sector IT</ol>
+              <ol> Aportar mis conocimeintos que he adquirido en este tiempo de estudio</ol>
+              <ol>Aprender lo maximo posible en el sitio que este trabajando </ol>
+              </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- habilidades-->
+<section class="section my-services" data-section="section2">
+  <div class="container">
+    <div class="section-heading">
+      <h2>MIS HABILIDADES</h2>
+      <div class="line-dec"></div>
+      <span> En mi plan de estudio he podido contemplar y estudiar varias tegnologias, sus funciones y utilidades, estas
+        son
+        algunas, esperando seguir aprendiendo mas, para manternerme actualizado dia a dia en este mundo tan cambiante
+      </span>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="one-service-icon service-icon"></div>
+          <div class="second-service-icon service-icon"></div>
+          <div class="third-service-icon service-icon"></div>
+          <h4>HTML5 &amp; CSS3-BOOSTRAP</h4>
+          <p>
+            Estos lenguajes los aprendi y desarrolle en varios de mis proyectos personales en los cuales e podido
+            practicar , usando el framework boostrap para un dise;o mas rapido y responsive
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="fourth-service-icon service-icon"></div>
+          <div class="five-service-icon service-icon"></div>
+          <div class="six-service-icon service-icon"></div>
+          <h4>PYTHON &amp; DJANGO &amp; TKINTER </h4>
+          <p>
+            Python,este gran lenguaje de programacion lo escoji por ser muy amigable al aprendizaje y su filosofia de
+            ser sencillo y eficaz en todo ambito,con su framework django que  he podido usar con
+            frecuencia en mis proyectos al igual que  tkinter para generar algunas actividades de aprendizaje.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="seven-service-icon service-icon"></div>
+          <div class="eigth-service-icon service-icon"></div>
+          <div class="nine-service-icon service-icon"></div>
+          <h4>SQL LITE &amp;POSTGREE </h4>
+          <p>
+            Bases de datos, he podido conocer a sqlite y postgree que son  bases de datos relacionales , las he podido trabajar
+            en mis proyectos.
+           itor
+  
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="ten-service-icon service-icon"></div>
+          <div class="eleven-service-icon service-icon"></div>
+          <div class="twelve-service-icon service-icon"></div>
+
+          <h4>GITHUB &amp; GIT BASH &amp;VISUAL STUDIO</h4>
+          <p>
+            En el manejo de control de versiones elegi a github, en mi consola
+            adapte gitbash , la cual me gusta su interfaz-rapides, y a visual studio por ser un gran ed
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="section-title">
+    <div class="container">
+      <hr>
+      <div class=" row row-cols-2">
+        <div class="col">
+
+          <div class="skill">
+            <h5>HTML</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">70%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+            <h5>CSS</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">70%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+            <h5>BOOBSTRAP</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">50%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+        </div>
+      </div>
+      <div class="row row-cols-2 ">
+        <div class="col">
+
+          <div class="skill">
+            <h5>PYTHON</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">60%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+            <h5>DJANGO</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">60%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+          <div class="skill">
+            <h5>SQL LITE</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">60%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+        </div>
+      </div>
+      <div class="row ">
+        <div class="col">
+          <div class="skill">
+            <h5>TKINTER</h5>
+            <div class="progress">
+              <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">60%
+              </div><!-- /.progress-bar -->
+            </div><!-- /.progress -->
+          </div><!-- /.skill -->
+        </div>
+      </div>
+   
+  </section><!-- habilidades progress  -->
+</section>
+<!-- proyectos -->
+<section class="section my-proyectos" data-section="section3">
+  <div class="container">
+    <div class="section-heading">
+      <h2>MIS PROYECTOS</h2>
+      <div class="line-dec"></div>
+      <span> Algunos de mis proyectos personales , los cuales me han ayudado a conocer y practicar mas a fondo las
+        tegnologias y metodos que he aprendido y seguire aprendiendo.</span>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="imagen">
+            <img class='zoom' src="{% static 'contactoapp/assets/images/web-auto.jpg'%}" alt="git" style="width:50%;">
+          </div>
+          <h4>WEB DAJNGO DE VENTA DE AUTOS</h4>
+          <p>
+            Web de venta de autos basica,contiene categorias , blog , envio de correos, y la tienda que se encuentra en , construccion
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service-item">
+          <div class="imagen">
+            <img class ='zoom'src="{% static 'contactoapp/assets/images/blog-bike.jpg '%}" alt="html" style="width: 50%;">
+          </div>
+          <h4>Blog -Django</h4>
+          <p>
+            Blog hecho con django, es un  blog con entradas de autor , post, imagenes y modificacion del post por medio de Ckeditor de django
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="service-item">
+          <img class='zoom' src="{% static 'contactoapp/assets/images/crud.jpg'%}" alt="crud" style="width:50%;">
+          <h4>Crud-Django</h4>
+          <p>
+            Crud creado con el framework django, en el cual es un sencillo ejemplo de crear, leer,actualizar, borrar datos del registro academico de un estudiante
+[ ]        </p>
+
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class=" service-item ">
+          <img class='zoom'src="{% static 'contactoapp/assets/images/app-tiempo.jpg'%}" alt="git" style="width:50%;">
+          <h4>App tiempo</h4>
+          <p>
+            Aplicacion de escritorio con la interfaz  grafica de TKINTER, es una app que nos muestra el estado del tiempo
+            los datos son proporcionados por una API REST de OPEN WAH=THER MAP
+          </p>      
+        </div>
+      </div>
+    </div>
+  </div>
+][
+
+</section>
+<!-- educacion -->
+<section class="section my-work" data-section="section4">
+  <div class="container">
+    <div class="section-heading">
+      <h2>MIS ESTUDIOS</h2>
+      <div class="line-dec"></div>
+      <span>Durante mi formacion he podido realizar diferentes cursos, seminarios y certificaciones</span>
+    </div>
+    <button type="button" class="btn btn-info" data-toggle="collapse" data-target="#resume">
+      leer mas
+    </button>
+    <section id="resume" class="resume">
+      <div id="resume" class="collapse in">
+        <div class="container">
+<br>
+          <div class="section-title">
+            <h2>RESUMEN</h2>
+            <div>
+              <ul>
+                <li>INGLES NIVEL : A2 </li>
+             </ul>
+             <div>
+               <ul>
+                 <li>ACTUALMENTE ESTUDIANDO: REDES Y SISTEMAS / fundacion carlos slim</li>
+               </ul>
+             </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6" data-aos="fade-up">
+
+              <h3 class="resume-title">CURSOS</h3>
+              <div class="resume-item">
+                <h4>PROGRAMACION CON JAVASCRIPT</h4>
+                <h5>2020</h5>
+                <p><em>FUNDACION TELEFONICA MOVISTAR</em></p>
+              </div>
+              <div class="resume-item">
+                <h4>maestro python</h4>
+                <h5>2019-2020</h5>
+                <p><em>academia de python</em></p>
+                <p>de cero a masestro en python</p>               
+              </div>
+              <div class="resume-item">
+                <h4>PROGRAMADOR ORIENTADO A OBJETOS </h4>
+                <h5>2019-2020</h5>
+                <p><em>FUNDACION CARLOS SLIM</em></p>             
+              </div>          
+              <div class="resume-item">
+                <h4>PYTHON </h4>
+                <h5>2020</h5>
+                <p><em>ITOO ACADEMY</em></p>               
+              </div>
+              <div class="resume-item">
+                <h4>PYTHON 3</h4>
+                <h5>2020</h5>
+                <p><em>SOLO LEARN</em></p>             
+              </div> 
+              <div class="resume-item">
+                <h4>CURADOR DE DATOS</h4>
+                <h5>2020</h5>
+                <p><em>FUNDACION CARLOS SLIM</em></p>             
+              </div>           
+            </div>
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+              <br>
+              <div class="resume-item">
+                <h4>INTRODUCCION A LA PROGRAMACION</h4>
+                <h5>2019-2020</h5>
+                <p><em>FUNDACION TELEFONICA MOVISTAR</em></p>              
+              </div>
+              <div class="resume-item">
+                <h4>CIBER SEGURIDAD EN EL ENTORNO EDUCATIVO</h4>
+                <h5>2020</h5>
+                <p><em>FUNDACION TELEFONICA MOVISTAR</em></p>              
+              </div>
+              <div class="resume-item">
+                <h4>INTRODUCCION AL DESARROLLO WEB</h4>
+                <h5>2020</h5>
+                <p><em>GOOGLE ACTIVATE</em></p>               
+              </div>
+              <div class="resume-item">
+                <h4>FUNDAMENTOS DE MARKETING DIGITAL</h4>
+                <h5>2020</h5>
+                <p><em>GOOGLE ACTIVATE</em></p>             
+              </div>
+              <div class="resume-item">
+                <h4>FUNDAMENTOS ESENCIALES MARKETING ON LINE</h4>
+                <h5>2019-2020</h5>
+                <p><em>LINKEDIN</em></p>              
+              </div> 
+              <div class="resume-item">
+                <h4>CONTENT MARKETING</h4>
+                <h5>2020</h5>
+                <p><em>LINKEDIN</em></p>             
+              </div>     
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up">
+
+          <h3 class="resume-title">SEMINARIOS</h3>
+          <div class="resume-item">
+            <h4>GESTION DE PROYECTOS CON SCRUM</h4>
+            <h5>2020</h5>
+            <p><em>FUNDACION TELEFONICA MOVISTAR</em></p>
+          </div>
+          <div class="resume-item">
+            <h4>ORACLE</h4>
+            <h5>2019-2020</h5>
+            <p><em>EDUCACION IT ACADEMY</em></p>              
+          </div>
+          <div class="resume-item">
+            <h4>SQL SERVER </h4>
+            <h5>2019-2020</h5>
+            <p><em>EDUCACION IT ACADEMY</em></p>             
+          </div>          
+          <div class="resume-item">
+            <h4>PYTHON </h4>
+            <h5>2020</h5>
+            <p><em>EDUCACION IT ACADEMY</em></p>               
+          </div>        
+        </div>
+   </section><!-- End Resume Section -->
+
+<!-- contacto -->
+<section class="section contact-me" data-section="section5">
+  <div class="container">
+    <div class="section-heading">
+     
+      <h2>contacto</h2>
+      <div class="line-dec"></div>
+      <span> si me quieres contactar estare atento a tu correo o peticion .</span>
+      {% if "enviado" in request.GET %}
+        <p style="color:rgb(241, 3, 3)">informacion enviada , en breve nos contactaremos con usted , gracias</p>
+      {%endif%}
+    </div>
+    <div class="row">
+      <div class="right-content">
+        <div class="container">
+          <form id="contact" action="contacto" method="POST">{% csrf_token %}
+              
+            <div class="row">
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="name" type="text" class="form-control" id="name" placeholder="tu nombre..."
+                    required="True" />
+                </fieldset>
+              </div>
+              <div class="col-md-6">
+                <fieldset>
+                  <input name="email" type="text" class="form-control" id="email" placeholder="tu correo..."
+                    required="True" />
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <input name="subject" type="text" class="form-control" id="subject" placeholder="asunto..."
+                    required="False" />
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="tu mensaje..."
+                    required="False"></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">
+                    enviar mensaje
+                  </button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- contacto -->
+
+
+
+{% endblock %}
