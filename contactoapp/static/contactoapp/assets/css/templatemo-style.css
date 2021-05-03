@@ -11,7 +11,7 @@ https://templatemo.com/tm-531-reflux
 body {
     font-family: 'Lato', sans-serif;
 }
-
+/* Basic
 #page-wraper {
     background: url(../images/programacion1.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -22,10 +22,11 @@ body {
 }
 
 
-/* Basic */
+ */
 
 body {
     overflow-x: hidden;
+    background: url(../images/fondo5.jpg);
 }
 
 input,
@@ -40,15 +41,15 @@ a:hover {
 }
 
 p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 24px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 h4 {
     font-size: 26px;
     font-weight: 700;
-    color: #fff;
+    color: rgb(255, 255, 255);
     letter-spacing: 0.25px;
 }
 
@@ -125,7 +126,7 @@ html {
 
 .main-nav li:hover a,
 .main-nav li.active a {
-    background: #fff;
+    background: rgb(60, 166, 253);
     color: #000000;
 }
 
@@ -165,8 +166,8 @@ html {
 }
 
 .menu .social-network ul li a {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     text-align: center;
     line-height: 40px;
@@ -178,7 +179,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: rgb(60, 166, 253);
-    color: #000000;
+    color: #fb0a0a;
 }
 
 .menu .copyright-text {
@@ -187,7 +188,7 @@ html {
 }
 
 .menu .copyright-text p {
-    border-top: 1px solid rgba(250, 250, 250, 0.1);
+    border-top: 1px solid rgba(20, 53, 202, 0.616);
     display: inline-block;
     width: 100%;
     padding-left: 30px;
@@ -220,7 +221,7 @@ html {
 }
 
 .menu {
-    left: 10%;
+   left: 10%;
   -webkit-transition: -webkit-transform-233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
   background-color: #223538;
@@ -241,7 +242,7 @@ html {
 }
 
 .menu-toggle {
-  color: #fff;
+  color: rgb(8, 206, 97);
   cursor: pointer;
   font-size: 25px;
   position: fixed;
@@ -308,7 +309,7 @@ html {
 .section-heading .line-dec {
     width: 60px;
     height: 3px;
-    background-color: #f3ebec;
+    background-color: #eef3eb;
     margin: 10px auto;
 }
 
@@ -325,7 +326,7 @@ html {
 .white-button a {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #fff;
+    background-color: rgb(23, 246, 2);
     color: #141313;
     font-size: 13px;
     font-weight: 800;
@@ -342,8 +343,8 @@ html {
 button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #fff;
-    color: #4e5ff8;
+    background-color: rgb(60, 100, 146);
+    color: rgb(247, 248, 248);
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 0.5px;
@@ -356,7 +357,7 @@ button {
 
 button:hover {
     outline: none;
-    background-color: #4e27dd;
+    background-color:rgb(57, 60, 63);
     color: #fff;
 }
 
@@ -535,7 +536,7 @@ button:hover {
 }
 
 .zoom {
-    transition:transform .3s;
+    transition:transform .5s;
 }
 .zoom:hover{
     transform:scale(1,2);
@@ -554,11 +555,18 @@ button:hover {
 }
 
 .progress{
-    height: 10px;
+    height: 20px;
     margin-bottom: 0;
     border-radius: 0;
     background-color: hsla(118, 97%, 50%, 0.972);
     box-shadow: none;
+}
+
+.progress {
+    transition:transform .4s;
+}
+.progress:hover {
+    transform:scale(1,2);
 }
 
 /* mis estudios */
