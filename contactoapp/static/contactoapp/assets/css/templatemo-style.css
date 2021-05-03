@@ -505,10 +505,10 @@ button:hover {
     background-image: url(../images/fourth-white-icon.png);
 }
 
-.service-item:hover .nine-service-icon {
-    background-image: url(../images/logodocker.jpg);
+/*.service-item:hover .nine-service-icon {
+    background-image: url(../images/logodocker.jpg); }*/
     
-}
+
 /* iconos git y visual*/
 .service-item .ten-service-icon {
     background-image: url(../images/third-white-icon.png);
