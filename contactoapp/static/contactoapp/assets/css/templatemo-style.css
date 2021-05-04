@@ -166,20 +166,20 @@ html {
 }
 
 .menu .social-network ul li a {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     display: inline-block;
     text-align: center;
-    line-height: 40px;
-    background-color: rgba(0, 0, 0, 0.2);
+    line-height: 50px;
+    background-color: rgba(5, 73, 119, 0.486);
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
 }
 
 .menu .social-network ul li a:hover {
-    background-color: rgb(60, 166, 253);
-    color: #fb0a0a;
+    background-color: rgb(9, 52, 87);
+    color: #000000;
 }
 
 .menu .copyright-text {
@@ -272,7 +272,7 @@ html {
 #menu-close {
     cursor: pointer;
     text-align: right;
-    color: #a43f49;
+    color: #4d4949;
     background-color: #fff;
     width: 100%;
     height: 60px;
@@ -367,12 +367,12 @@ button:hover {
 .right-image-post {
     margin-top: 60px;
     padding-top: 60px;
-    border-top: 2px solid rgba(250, 250, 250, 0.1);
+    border-top: 2px solid rgba(20, 19, 19, 0.1);
 }
 
 .left-image img,
 .right-image img {
-    border-radius: 5px;
+    border-radius: 50px;
 }
 
 .right-image-post h4,

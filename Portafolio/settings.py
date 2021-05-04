@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'whitenoise.middelware.WhiteNoiseMiddelware',
+    
 ]
 
 ROOT_URLCONF = 'Portafolio.urls'
@@ -73,7 +73,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Portafolio.wsgi.application'
+
 
 
 # Database
@@ -126,7 +126,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS = os.path.join(BASE_DIR,"static"),
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 #creamos el enlace al correo electronico para el contacto
 
 EMAIL_BACKEND="django.core.mail.backends.smtp.EmailBackend"
@@ -135,5 +134,3 @@ EMAIL_USE_TLS=True
 EMAIL_PORT=587
 EMAIL_HOST_USER="oalonso222@gmail.com"
 EMAIL_HOST_PASSWORD="lc123456"
-
-django_heroku.settings(locals())
