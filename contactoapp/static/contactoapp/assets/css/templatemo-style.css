@@ -166,12 +166,12 @@ html {
 }
 
 .menu .social-network ul li a {
-    width: 60px;
+    width: 50px;
     height: 60px;
     display: inline-block;
     text-align: center;
     line-height: 50px;
-    background-color: rgba(5, 73, 119, 0.486);
+    background-color: rgba(18, 145, 230, 0.897);
     color: #fff;
     font-size: 14px;
     transition: all 0.5s;
@@ -179,7 +179,7 @@ html {
 
 .menu .social-network ul li a:hover {
     background-color: rgb(9, 52, 87);
-    color: #000000;
+    color: #fbfafa8e;
 }
 
 .menu .copyright-text {
