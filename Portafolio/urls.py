@@ -20,6 +20,7 @@ from django.conf.urls.static import static
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('/',include("contactoapp.urls")),
+    path('contactoapp/',include("contactoapp.urls")),
 
 ] + static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)
+
