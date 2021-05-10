@@ -5,7 +5,7 @@ from django.core.mail import EmailMessage
 # Create your views here.
 
 def home (request):
-    return render (request,'static/home.html',{})
+    return render (request,'contactoapp/home.html',{})
 
 
 def contacto(request):
@@ -26,7 +26,7 @@ def contacto(request):
         except:
               return redirect("section5/contacto/?noenviado")
 
-    return render(request,"static/home.html/contacto")
+    return render(request,"contactoapp/home.html/contacto")
 
 
 
