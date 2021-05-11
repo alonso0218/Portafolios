@@ -26,7 +26,7 @@ body {
 
 body {
     overflow-x: hidden;
-    background: url(../images/logo4.jpg);
+    background: url(../images/fondo5.jpg);
 }
 
 input,
@@ -137,8 +137,8 @@ html {
 }
 
 .menu .image img {
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     text-align: center;
 }
