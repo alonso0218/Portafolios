@@ -415,7 +415,7 @@ button:hover {
 }
 
 .service-item:hover {
-    background-color: rgb(251, 243, 243);
+    background-color: rgba(148, 206, 253, 0.438);
 }
 
 .service-item:hover h4 {
@@ -482,7 +482,7 @@ button:hover {
 }
 
 .service-item:hover .six-service-icon {
-    background-image: url(../images/django-logo.jpg);
+    background-image: url(../images/tkinter.png);
     
 }
 /* iconos base de datos  */
@@ -499,7 +499,7 @@ button:hover {
 }
 
 .service-item:hover .eigth-service-icon {
-    background-image: url(../images/logopostgree.jpg);
+    background-image: url(../images/mint_logo.jpg);
     
 }
 .service-item .nine-service-icon {
